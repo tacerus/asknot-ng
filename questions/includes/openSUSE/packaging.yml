@@ -1,0 +1,6 @@
+tree:
+  children:
+    - title: Factory
+      subtitle: create packages for everyone to use
+      image: #
+      link: https://en.opensuse.org/openSUSE:How_to_contribute_to_Factory

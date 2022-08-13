@@ -1,0 +1,7 @@
+tree:
+  children:
+    - title: Ruby
+      subtitle: hashrockets and bare words
+      segue1: Are you a materialistic person? If you are all about objects
+      segue2: Try digging into...
+      children: coding/ruby.yml

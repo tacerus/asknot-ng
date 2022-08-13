@@ -1,0 +1,6 @@
+tree:
+  children:
+    - title: L10N
+      subtitle: the easiest way to start translating the project
+      image: #
+      link: https://l10n.opensuse.org/

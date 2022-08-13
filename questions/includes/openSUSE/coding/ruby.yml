@@ -1,0 +1,5 @@
+tree:
+  children:
+    - title: software.opensuse.org
+      subtitle: a way to discover and install package on openSUSE distributions
+      link: https://github.com/openSUSE/software-o-o/blob/master/CONTRIBUTING.md

@@ -40,30 +40,35 @@ tree:
     image: "" ### ADD ME
     segue1: Greasy cogs and steamy, rusty machines.
     segue2: Transmitting energy where it's needed with code and settings.
-    children: ### ADD ME OR REPLACE WITH LINK ATTRIBUTE
+    children: includes/openSUSE/infrastructure.yml
 
   - title: Packaging
     subtitle: placing fresh programs in cosy silky wraps.
     image: "" ### ADD ME
     segue1: you can build the OS or work on additional packages
     segue2: At any rate you'll love Open Build Service, check it out
-    children: includes/opensuse/packaging.yml ### ADD ME OR REPLACE WITH LINK ATTRIBUTE
+    children: includes/openSUSE/packaging.yml
 
   - title: Design
     subtitle: web design, logos and merchandising
     image: "" ### ADD ME
     segue1: So you enjoy working on visuals, graphical interface and user experience in general?
     segue2: How about ...?
-    children: includes/opensuse/design.yml  ### ADD ME OR REPLACE WITH LINK ATTRIBUTE
+    children: includes/openSUSE/design.yml 
 
   - title: Documentation
     image: "" ### ADD ME
     subtitle: A community thrives only insofar as it is able to share knowledge.
-    link: https://github.com/openSUSE/openSUSE-docs-revamped
+    children: includes/openSUSE/documentation.yml
+
+  - title: QA
+    image: "" ### ADD ME
+    subtitle: The vital testing of the most important aspects of the project's software.
+    children: includes/openSUSE/qa.yml
 
   - title: Translation
     subtitle: From Latin `translatere` (to transport)
     image: "" ### ADD ME
     segue1: Too often do we forget that English is just one in many languages.
     segue2: What do you want to translate for?
-    children: includes/opensuse/translation.yml ### ADD ME OR REPLACE WITH LINK ATTRIBUTE
+    children: includes/openSUSE/translation.yml

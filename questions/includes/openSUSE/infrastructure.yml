@@ -1,0 +1,6 @@
+tree:
+  children:
+    - title: Heroes
+      subtitle: the backbone of the openSUSE websites
+      image: #
+      link: https://en.opensuse.org/openSUSE:Heroes
