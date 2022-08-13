@@ -1,9 +1,7 @@
-https://github.com/openSUSE/asknot-ng.git
-
-title: What can I do for openSUSE?
-description: What can I do for openSUSE?
-favicon: https://www.opensuse.org/build/images/favicon.png
-google-site-verification:   ### not sure we have one
+title: Contribute to openSUSE
+description: How can I help openSUSE?
+favicon: https://static.opensuse.org/favicon.ico
+google-site-verification: 
 negatives:
     - "No"
     - Nope, nope, nope
@@ -28,8 +26,10 @@ backlinks:
 navlinks:
     - name: Home
       link: "javascript:reloadHome();"
-    - name: openSUSE Home
-      link: https://www.opensuse.org/
+    - name: Code of Conduct
+      link: https://en.opensuse.org/Code_of_Conduct
+    - name: Chat with us!
+      link: https://en.opensuse.org/openSUSE:Communication_channels
 
 tree:
   segue1: Want to make openSUSE even better?  Do tell us...

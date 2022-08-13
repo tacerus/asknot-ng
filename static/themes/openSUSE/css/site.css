@@ -1,0 +1,315 @@
+@media all {
+  :root {
+  --asknot-app-bg: 255, 255, 255;
+  --asknot-app-fg: 0, 0, 0;
+  --asknot-navbar-bg: #e9ecef;
+  --asknot-navbar-fg: #6c757d;
+  --asknot-secondary-bg: #35b9ab;
+  --asknot-secondary-fg: #173f4f;
+  --asknot-secondary-mt: #fff;
+  --asknot-link-hl: var(--asknot-blue-hl);
+  --asknot-link-bg: var(--asknot-blue-bg);
+  --asknot-primary-hl: #0e2731;
+  --asknot-primary-bg: #173f4f;
+  --asknot-primary-fg: white;
+  --asknot-blue-hl: #1b8cbe;
+  --asknot-blue-bg: #21a4df;
+  --asknot-green-hl: #5f9a1f;
+  --asknot-green-bg: #73ba25;
+  --asknot-green-fg: white;
+  --asknot-yellow-hl: #9f8539;
+  --asknot-yellow-bg: #bb9d43;
+  --asknot-yellow-fg: black;
+  --asknot-red-hl: #8c4b51;
+  --asknot-red-bg: #a55860;
+  --asknot-red-fg: white;
+   }
+}
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+  --asknot-app-bg: 33, 37, 41;
+  --asknot-app-fg: 255, 255, 255;
+  --asknot-navbar-bg: #343a40;
+  --asknot-navbar-fg: #adb5bd;
+   }
+}
+
+html,
+body {
+  height: 100%;
+  background-color: rgb(var(--asknot-app-bg));
+  background-size: 100% auto;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  color: rgb(var(--asknot-app-fg));
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  color: var(--asknot-link-bg);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:focus,
+a:hover {
+  color: var(--asknot-link-hl);
+  text-decoration: underline;
+}
+
+/* Custom default button */
+.btn {
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+  transition: none;
+  }
+}
+
+.btn-primary {
+  color: var(--asknot-primary-fg);
+  background-color: var(--asknot-primary-bg);
+  border-color: var(--asknot-primary-bg);
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus {
+  color: var(--asknot-primary-fg);
+  background-color: var(--asknot-primary-hl);
+  border-color: var(--asknot-primary-hl);
+}
+
+.btn-success {
+  color: var(--asknot-green-fg);
+  background-color: var(--asknot-green-bg);
+  border-color: var(--asknot-green-bg);
+}
+.btn-success:hover, .btn-success:focus, .btn-success.focus {
+  color: var(--asknot-green-fg);
+  background-color: var(--asknot-green-hl);
+  border-color: var(--asknot-green-hl);
+}
+
+.btn-danger {
+  color: var(--asknot-red-fg);
+  background-color: var(--asknot-red-bg);
+  border-color: var(--asknot-red-bg);
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger.focus {
+  color: var(--asknot-red-fg);
+  background-color: var(--asknot-red-hl);
+  border-color: var(--asknot-red-hl);
+}
+
+.btn-warning {
+  color: var(--asknot-yellow-fg);
+  background-color: var(--asknot-yellow-bg);
+  border-color: var(--asknot-yellow-bg);
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning.focus {
+  color: var(--asknot-yellow-fg);
+  background-color: var(--asknot-yellow-hl);
+  border-color: var(--asknot-yellow-hl);
+}
+
+/*
+ * Header
+ */
+
+.masthead.clearfix {
+  padding: 0.5rem 1rem;
+  background: var(--asknot-navbar-bg);
+  border-bottom: 2px solid #73ba25;
+}
+
+.masthead .inner {
+  display: flex;
+  align-items: center;
+}
+
+.masthead-brand {
+  text-indent: -9999px;
+  margin: 0;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+
+.masthead-nav > li > a {
+  padding: 0.5rem;
+  color: rgba(var(--asknot-app-fg), 0.5);
+  background-color: transparent!important;
+}
+
+.masthead-nav > li:first-of-type > a {
+  background: url('//static.opensuse.org/favicon.svg') no-repeat;
+  background-size: 32px;
+  display: flex;
+  height: 32px;
+  text-indent: -9999px;
+  margin: 0;
+  align-items: center;
+  margin-right: 1rem;
+  padding: 0;
+}
+.masthead-nav > li:first-of-type > a:after {
+  content: "Contribute";
+  font-size: 1.25rem;
+  text-indent: initial;
+  display: flex;
+  margin-left: 40px;
+  color: rgba(var(--asknot-app-fg));
+}
+
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  color: rgba(var(--asknot-app-fg), 0.7);
+}
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus,
+.masthead-nav > .open > a,
+.masthead-nav > .open > a:hover,
+.masthead-nav > .open > a:focus {
+  color: rgba(var(--asknot-app-fg), 1);
+}
+
+.dropdown-menu {
+  min-width: 105px;
+}
+
+/*
+ * Main
+ */
+
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-wrapper-inner {
+  flex: 1 1 auto !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover-container {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#js-warning .panel-body {
+  background-color: #3c6eb4;
+}
+
+.bandana {
+  background-color: var(--asknot-secondary-bg);
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-text {
+  vertical-align: middle;
+  display: inline-block;
+  /* This has to be relative just so z-index applies */
+  position: relative;
+  z-index: 2;
+}
+
+.bandana .img {
+  display: inline-block;
+  margin-top: -100px;
+  margin-bottom: -100px;
+  position: absolute;
+  right: 10%;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.bandana .img img {
+  z-index: -1;
+  height: 400px;
+  width: 400px
+}
+
+.title {
+  font-weight: 900;
+  color: var(--asknot-secondary-fg);
+  text-transform: uppercase;
+}
+
+.segue1 {
+  margin-bottom: -10px;
+}
+
+.subtitle {
+  color: var(--asknot-secondary-mt);
+  display: inline;
+}
+
+.subtitle a {
+  color: var(--asknot-secondary-mt);
+  text-decoration: underline;
+}
+
+/*
+ * Footer
+*/
+
+.mastfoot {
+  padding: 30px 0;
+  color: var(--asknot-navbar-fg);
+  background: var(--asknot-navbar-bg);
+}
+
+.mastfoot p {
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.uls-trigger {
+  position: absolute;
+  right: calc((100% - 1140px) / 2);
+}
+
+@media only screen and (max-width: 1140px) {
+  .uls-trigger { right: 1rem; }
+}
+
+@media only screen and (max-width: 744px) {
+  .uls-trigger { display: block; }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .title { font-size: 25px; } 
+  .segue1 { font-size: 15px; } 
+  .segue2 { font-size: 15px; }
+  .subtitle { font-size: 16px; }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .title { font-size: 64px; }
+  .segue1 { font-size: 18px; }
+  .segue2 { font-size: 32px; }
+  .subtitle { font-size: 24px; }
+}
+
+
+
