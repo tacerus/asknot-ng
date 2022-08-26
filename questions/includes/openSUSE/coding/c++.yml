@@ -1,0 +1,9 @@
+tree:
+  children:
+    - title: zypper
+      subtitle: Help improve the world's most powerful command line package manager 
+      link: https://github.com/openSUSE/zypper
+
+    - title: transactional-update
+      subtitle: Provide features and work with code affecting atomic updates for Linux operating systems
+      link: https://github.com/openSUSE/transactional-update
