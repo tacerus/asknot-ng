@@ -3,3 +3,12 @@ tree:
     - title: software.opensuse.org
       subtitle: a way to discover and install package on openSUSE distributions
       link: https://github.com/openSUSE/software-o-o/blob/master/CONTRIBUTING.md
+
+    - title: Travel Support Program
+      subtitle: Help people in the project attend events by improving tsp.opensuse.org 
+      link: https://github.com/openSUSE/travel-support-program
+
+    - title: Open Source Event Manager
+      subtitle: PUse your Ruby skills to make our event management tool for FOSS conferences even better
+      link: https://github.com/openSUSE/osem
+
