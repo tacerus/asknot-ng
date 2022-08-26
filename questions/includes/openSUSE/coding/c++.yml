@@ -7,3 +7,7 @@ tree:
     - title: transactional-update
       subtitle: Provide features and work with code affecting atomic updates for Linux operating systems
       link: https://github.com/openSUSE/transactional-update
+      
+    - title: snapper
+      subtitle: Manage filesystem snapshots to undo system modifications 
+      link: https://github.com/openSUSE/snapper
