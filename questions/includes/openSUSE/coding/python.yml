@@ -2,4 +2,4 @@ tree:
   children:
     - title: osc
       subtitle: Write code and contribute to the CLI multi-distro interface to the Open Build Service 
-      link: hhttps://github.com/openSUSE/osc
+      link: https://github.com/openSUSE/osc
