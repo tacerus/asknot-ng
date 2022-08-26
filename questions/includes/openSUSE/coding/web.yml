@@ -1,0 +1,9 @@
+tree:
+  children:
+    - title: Website
+      subtitle: Create branded webpages for openSUSE projects 
+      link: https://github.com/openSUSE/landing-page
+
+    - title: Web Design
+      subtitle: Contribute to the webpages to give users a better first impression of the openSUSE Project
+      link: https://github.com/openSUSE/landing-page
