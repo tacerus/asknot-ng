@@ -1,10 +1,16 @@
 tree:
   children:
     - title: Python
-      subtitle: Write code and contribute to the CLI multi-distro interface to the Open Build Service
-      segue1: Enjoy building things?  What could go wrong?
+      subtitle: Code in Python.
+      segue1: Enjoy building things?  What could go wrong? Need a mentor. Reach out to <https://101.opensuse.org/>
       segue2: Are you interested in hacking on...
       children: coding/python.yml
+      
+    - title: perl
+      subtitle: There are people that like Perl. Do you?
+      segue1: See the powerful things build with Perl.
+      segue2: It has its purpose and it is...
+      children: coding/perl.yml
 
     - title: C
       subtitle: Take part in the universe's biggest collaborative effort by commiting code for the Linux Kernel
