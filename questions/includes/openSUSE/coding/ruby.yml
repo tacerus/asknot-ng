@@ -9,6 +9,10 @@ tree:
       link: https://github.com/openSUSE/travel-support-program
 
     - title: Open Source Event Manager
-      subtitle: PUse your Ruby skills to make our event management tool for FOSS conferences even better
+      subtitle: Use your Ruby skills to make our event management tool for FOSS conferences even better
       link: https://github.com/openSUSE/osem
+
+    - title: Open Build Service Frontend
+      subtitle: Contribute to the frontend of the Open Build Service; a generic system to build and distribute packages from source 
+      link: https://github.com/openSUSE/open-build-service/blob/master/CONTRIBUTING.md
 
