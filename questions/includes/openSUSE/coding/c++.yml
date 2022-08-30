@@ -10,4 +10,4 @@ tree:
       
     - title: snapper
       subtitle: Manage filesystem snapshots to undo system modifications 
-      link: https://github.com/openSUSE/snapper
+      link: http://snapper.io/development.html
