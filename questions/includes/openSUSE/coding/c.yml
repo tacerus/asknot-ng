@@ -2,4 +2,4 @@ tree:
   children:
     - title: Kernel
       subtitle: Take part in the universe's biggest collaborative effort by commiting code for the Linux Kernel 
-      link: https://github.com/openSUSE/kernel-source
+      link: https://kernelnewbies.org/
