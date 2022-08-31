@@ -4,3 +4,7 @@ tree:
       subtitle: Promoting openSUSE & creating awareness for open source
       image: #
       link: https://en.opensuse.org/openSUSE:Marketing_team
+
+    - title: Shop
+      subtitle: openSUSE has tons of merchandise in its shop. Help to make the presentation of the page better. Or design a t-shirt for the shop.
+      link: https://github.com/openSUSE/shop.o.o
