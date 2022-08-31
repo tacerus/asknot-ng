@@ -3,3 +3,7 @@ tree:
     - title: osc
       subtitle: Write code and contribute to the CLI multi-distro interface to the Open Build Service 
       link: https://github.com/openSUSE/osc
+
+    - title: Release Countdown
+      subtitle: Be apart of the release process and help with the countdown script for openSUSE Releases (excluding Tumbleweed ;-) 
+      link: https://github.com/openSUSE/countdown.o.o
