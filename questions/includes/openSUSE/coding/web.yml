@@ -4,8 +4,8 @@ tree:
       subtitle: Contribute to the webpages to give users a better first impression of the openSUSE Project
       link: https://en.opensuse.org/openSUSE:Web_design
 
-    - title: Landing Page
-      subtitle: First impression mean a lot. Help create that first impression through improving openSUSE's landing page
+    - title: New Landing Page
+      subtitle: First impression mean a lot. Help create the next first impression through creating openSUSE's next, new landing page
       link: https://github.com/openSUSE/www-o-o
       
     - title: Blog Aggregator
