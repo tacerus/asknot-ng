@@ -4,3 +4,7 @@ tree:
       subtitle: Share your creativity and increase attention for the project through imagery
       image: #
       link: https://en.opensuse.org/openSUSE:Artwork_team
+
+    - title: Release Countdown
+      subtitle: Be apart of the release process and help with the countdown script for openSUSE Releases (excluding Tumbleweed ;-) 
+      link: https://github.com/openSUSE/countdown.o.o
