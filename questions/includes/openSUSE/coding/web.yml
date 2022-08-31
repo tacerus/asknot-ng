@@ -3,3 +3,19 @@ tree:
     - title: Web Design
       subtitle: Contribute to the webpages to give users a better first impression of the openSUSE Project
       link: https://en.opensuse.org/openSUSE:Web_design
+
+    - title: Landing Page
+      subtitle: First impression mean a lot. Help create that first impression through improving openSUSE's landing page
+      link: https://github.com/openSUSE/www-o-o
+      
+    - title: Blog Aggregator
+      subtitle: Improve the collection and presentation of related blog content related to openSUSE
+      link: https://github.com/openSUSE/planet-o-o
+      
+    - title: Search Page
+      subtitle: Users of openSUSE distributions that access their browser have a default search page. Have an idea to improve it? You can.
+      link: https://github.com/openSUSE/search-o-o/blob/master/CONTRIBUTING.md
+      
+    - title: Distro Delivery
+      subtitle: Boost how Tumbleweed, Leap, MicroOS and future releases are presented to prospective users.  
+      link: https://github.com/openSUSE/get-o-o/blob/master/CONTRIBUTING.md
