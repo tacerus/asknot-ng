@@ -1,5 +1,17 @@
 tree:
   children:
-    - title: software.opensuse.org
-      subtitle: a way to discover and install package on openSUSE distributions
+    - title: Travel Support Program
+      subtitle: Help people in the project attend events by improving tsp.opensuse.org 
+      link: https://github.com/openSUSE/travel-support-program
+
+    - title: Open Source Event Manager
+      subtitle: Use your Ruby skills to make our event management tool for FOSS conferences even better
+      link: https://github.com/openSUSE/osem/blob/master/CONTRIBUTING.md
+
+    - title: Open Build Service Frontend
+      subtitle: Contribute to the frontend of the Open Build Service; a generic system to build and distribute packages from source 
+      link: https://github.com/openSUSE/open-build-service/blob/master/CONTRIBUTING.md
+      
+    - title: software-o-o
+      subtitle: Deliver the application powering software with openSUSE. There is event a vision - https://etherpad.opensuse.org/p/softwareproposal  
       link: https://github.com/openSUSE/software-o-o/blob/master/CONTRIBUTING.md

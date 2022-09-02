@@ -1,7 +1,42 @@
 tree:
   children:
-    - title: Ruby
-      subtitle: hashrockets and bare words
-      segue1: Are you a materialistic person? If you are all about objects
-      segue2: Try digging into...
+    - title: Python
+      subtitle: Code in Python.
+      segue1: Enjoy building things?  What could go wrong? Need a mentor. Reach out to <https://101.opensuse.org/>
+      segue2: Are you interested in hacking on...
+      children: coding/python.yml
+      
+    - title: perl
+      subtitle: There are people that like Perl. Do you?
+      segue1: See the powerful things build with Perl.
+      segue2: It has its purpose and it is...
+      children: coding/perl.yml
+
+    - title: C
+      subtitle: Take part in the universe's biggest collaborative effort by commiting code for the Linux Kernel
+      segue1: Good back in the day and still is..
+      segue2: How about working on...
+      children: coding/c.yml
+
+    - title: JavaScript
+      subtitle: a dynamic web-oriented language for backend and frontend
+      segue1: Create branded webpages for openSUSE projects
+      segue2: There's plenty to do.  How about joining the..
+      children:
+        - title: Websites Team
+          subtitle: Contribute to the webpages to give users a better first impression of the openSUSE Project
+          segue1: Great!
+          segue2: Would you like something more
+          children: coding/web.yml
+          
+      - title: Ruby
+      subtitle: It is not just a stone.
+      segue1: Use your Ruby skills to make our event management tool for FOSS conferences even better
+      segue2: Help people in the project attend events by improving tsp.opensuse.org
       children: coding/ruby.yml
+
+    - title: C++
+      subtitle: C++ has better grades than C 
+      segue1: Provide features and work with code affecting atomic updates for Linux operating systems
+      segue2: Help improve the world's most powerful command line package manager 
+      children: coding/c++.yml

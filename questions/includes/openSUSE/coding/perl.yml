@@ -1,0 +1,9 @@
+tree:
+  children:
+    - title: Open Build Service Backend
+      subtitle: Write code and contribute to the backend of Open Build Service; a generic system to build and distribute packages from source 
+      link: https://github.com/openSUSE/open-build-service/blob/master/CONTRIBUTING.md
+      
+    - title: openQA
+      subtitle: Testing software for Quality Assurance can be automated. See how it can work for your software. 
+      link: http://open.qa/contact/

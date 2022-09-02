@@ -1,9 +1,8 @@
 tree:
   children:
-    - title: Artwork
-      subtitle: Share your creativity and increase attention for the project through imagery
-      image: #
-      link: https://en.opensuse.org/openSUSE:Artwork_team
+    - title: osc
+      subtitle: Write code and contribute to the CLI multi-distro interface to the Open Build Service 
+      link: https://github.com/openSUSE/osc
 
     - title: Release Countdown
       subtitle: Be apart of the release process and help with the countdown script for openSUSE Releases (excluding Tumbleweed ;-) 

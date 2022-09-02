@@ -1,0 +1,13 @@
+tree:
+  children:
+    - title: zypper
+      subtitle: Help improve the world's most powerful command line package manager 
+      link: https://en.opensuse.org/Portal:Zypper
+
+    - title: transactional-update
+      subtitle: Provide features and work with code affecting atomic updates for Linux operating systems
+      link: https://github.com/openSUSE/transactional-update
+      
+    - title: snapper
+      subtitle: Manage filesystem snapshots to undo system modifications 
+      link: http://snapper.io/development.html
