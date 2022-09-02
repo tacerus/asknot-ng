@@ -1,5 +1,5 @@
 tree:
   children:
-    - title: doc.opensuse.org
+    - title: doc-o-o
       subtitle: the primary openSUSE documentation website
       link: https://github.com/SUSE/doc-sle#contributing
